@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Thalia Archibald</title>
+  <link href="https://thalia.dev/" />
+  <description>Blog posts by Thalia Archibald.</description>
+  <updated>2025-12-02T17:50:39-07:00</updated>
+  <author><name>Thalia Archibald</name></author>
+  <entry>
+    <title>Coq typeclass resolution is Turing-complete</title>
+    <link>https://thaliaarchi.github.io/coq-turing-typeclass/</link>
+    <published>2023-04-15T22:21:31-06:00</published>
+    <updated>2023-04-16T11:30:04-06:00</updated>
+    <id>coq-turing-typeclass</id>
+    <summary>Proof by construction that the typeclass resolver in Coq can
+      perform arbitrary computation while searching for instances.</summary>
+  </entry>
+</feed>
