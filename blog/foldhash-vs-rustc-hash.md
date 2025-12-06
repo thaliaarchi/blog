@@ -1,5 +1,7 @@
 # foldhash vs rustc-hash
 
+by Thalia Archibald, 20 Oct 2024
+
 The new hashing algorithms in [`foldhash`](https://github.com/orlp/foldhash),
 used by [`hashbrown`](https://github.com/rust-lang/hashbrown) as of
 [version 0.15](https://github.com/rust-lang/hashbrown/blob/master/CHANGELOG.md#v0150---2024-10-01),

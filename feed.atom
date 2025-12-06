@@ -3,7 +3,7 @@
   <title type="text">Thalia Archibald</title>
   <link href="https://thalia.dev/" />
   <description>Blog posts by Thalia Archibald.</description>
-  <updated>2025-12-02T17:50:39-07:00</updated>
+  <updated>2025-12-06T01:23:38-07:00</updated>
   <author><name>Thalia Archibald</name></author>
   <entry>
     <title>Coq typeclass resolution is Turing-complete</title>
@@ -13,5 +13,15 @@
     <id>coq-turing-typeclass</id>
     <summary>Proof by construction that the typeclass resolver in Coq can
       perform arbitrary computation while searching for instances.</summary>
+  </entry>
+  <entry>
+    <title>foldhash vs rustc-hash</title>
+    <link>https://thalia.dev/blog/foldhash-vs-rustc-hash</link>
+    <published>2024-10-20T18:06:23-07:00</published>
+    <updated>2024-10-20T18:06:23-07:00</updated>
+    <id>foldhash-vs-rustc-hash</id>
+    <summary>Comparison of the new hashing algorithms in foldhash, used by
+      hashbrown as of version 0.15, and rustc-hash, both written by Orson Peters
+      using folded multiplies.</summary>
   </entry>
 </feed>
