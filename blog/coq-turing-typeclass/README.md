@@ -10,4 +10,4 @@ should be Turing-complete! Let's prove it!
 In this tutorial, I implement Smallfuck using only typeclass instance resolution
 in Coq. To my knowledge, this is the first proof of its Turing-completeness.
 
-Read it in [turing_typeclass.v](turing_typeclass.v) or [rendered](https://thaliaarchi.github.io/coq-turing-typeclass/).
+Read it in [turing_typeclass.v](turing_typeclass.v) or [rendered](https://thalia.dev/blog/coq-turing-typeclass/).

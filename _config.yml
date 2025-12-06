@@ -1,1 +1,7 @@
-exclude: ["CNAME", "README.md", "TODO.md"]
+exclude: [
+  ".gitattributes",
+  "CNAME",
+  "README.md",
+  "TODO.md",
+  "blog/coq-turing-typeclass/README.md",
+]

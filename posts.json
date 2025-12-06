@@ -16,8 +16,10 @@
     "slug": "coq-turing-typeclass",
     "title": "Coq typeclass resolution is Turing-complete",
     "published": "2023-04-15 22:21:31 -0600",
-    "updated": "2023-04-16 11:30:04 -0600",
+    "updated": "2025-12-06 02:28:56 -0600",
     "url_history": [
+      "https://thalia.dev/blog/coq-turing-typeclass/",
+      "https://thalia.dev/blog/coq-turing-typeclass/index.html",
       "https://thaliaarchi.github.io/coq-turing-typeclass/",
       "https://thaliaarchi.github.io/coq-turing-typeclass/index.html",
       "https://github.com/thaliaarchi/coq-turing-typeclass"

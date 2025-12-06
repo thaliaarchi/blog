@@ -266,9 +266,9 @@ Compute rev exec_hworld.(exec).(ltape).
     To my knowledge, this is the first proof of the Turing-completeness of
     typeclass resolution in Coq.
 
-    You can find the source code for this tutorial at
-    #<a href="https://github.com/thaliaarchi/coq-turing-typeclass">
-    github.com/thaliaarchi/coq-turing-typeclass</a>#.
+    You can find the source code for this tutorial as a part of
+    #<a href="https://github.com/thaliaarchi/blog/tree/main/blog/coq-turing-typeclass">
+    github.com/thaliaarchi/blog</a>#.
 
     For more Turing-complete subsets of programming languages, see my
     compilation #<a href="https://github.com/thaliaarchi/notes/blob/main/topics/unexpected_turing.md">

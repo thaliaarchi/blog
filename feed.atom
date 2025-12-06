@@ -3,13 +3,13 @@
   <title type="text">Thalia Archibald</title>
   <link href="https://thalia.dev/" />
   <description>Blog posts by Thalia Archibald.</description>
-  <updated>2025-12-06T01:23:38-07:00</updated>
+  <updated>2025-12-06T02:28:56-06:00</updated>
   <author><name>Thalia Archibald</name></author>
   <entry>
     <title>Coq typeclass resolution is Turing-complete</title>
     <link>https://thaliaarchi.github.io/coq-turing-typeclass/</link>
     <published>2023-04-15T22:21:31-06:00</published>
-    <updated>2023-04-16T11:30:04-06:00</updated>
+    <updated>2025-12-06T02:28:56-06:00</updated>
     <id>coq-turing-typeclass</id>
     <summary>Proof by construction that the typeclass resolver in Coq can
       perform arbitrary computation while searching for instances.</summary>
