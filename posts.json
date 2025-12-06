@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "foldhash-vs-rustc-hash",
+    "title": "foldhash vs rustc-hash",
+    "published": "2024-10-20 18:06:23 -0700",
+    "updated": "2024-10-20 18:06:23 -0700",
+    "url_history": [
+      "https://thalia.dev/blog/foldhash-vs-rustc-hash",
+      "https://thalia.dev/blog/foldhash-vs-rustc-hash.html",
+      "https://github.com/thaliaarchi/notes/blob/main/pl/langs/rust/foldhash_vs_rustc-hash.md",
+      "https://thaliaarchi.github.io/notes/pl/langs/rust/foldhash_vs_rustc-hash",
+      "https://thaliaarchi.github.io/notes/pl/langs/rust/foldhash_vs_rustc-hash.html"
+    ]
+  },
+  {
+    "slug": "coq-turing-typeclass",
+    "title": "Coq typeclass resolution is Turing-complete",
+    "published": "2023-04-15 22:21:31 -0600",
+    "updated": "2023-04-16 11:30:04 -0600",
+    "url_history": [
+      "https://thaliaarchi.github.io/coq-turing-typeclass/",
+      "https://thaliaarchi.github.io/coq-turing-typeclass/index.html",
+      "https://github.com/thaliaarchi/coq-turing-typeclass"
+    ]
+  }
+]
