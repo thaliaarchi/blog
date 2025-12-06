@@ -11,6 +11,7 @@
 - Early UNIX at the University of Utah and V4
 - Early UNIX at the University of Alberta
 - Evans & Sutherland connection to BYU's CS Animation dept and CS PhD
+- Perl 1.0 regular expression provenance
 - The historical context of Dijkstra's “Go To Statement Considered Harmful”.
   Everyone misses that structured programming was not yet the norm. Talk about
   Ratfor bringing C-style control flow to Fortran. Occasional use for error
@@ -24,6 +25,7 @@
   - [BibTeX tutorial](https://ftp.rrze.uni-erlangen.de/ctan/info/bibtex/tamethebeast/ttb_en.pdf)
   - [Citation styles](https://github.com/citation-style-language)
 - List of jq programs
+- Whitespace lazy semantics
 
 ## Styling
 
