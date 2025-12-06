@@ -11,6 +11,7 @@
 - Early UNIX at the University of Utah and V4
 - Early UNIX at the University of Alberta
 - Evans & Sutherland connection to BYU's CS Animation dept and CS PhD
+- V6 vs xv6
 - Perl 1.0 regular expression provenance
 - The historical context of Dijkstra's “Go To Statement Considered Harmful”.
   Everyone misses that structured programming was not yet the norm. Talk about
@@ -46,6 +47,8 @@
   - Hanwen's Notty is for note taking in Typst, exporting to PDF and HTML.
     [[generator](https://github.com/hanwenguo/notty)]
     [[site](https://hanwenguo.github.io/notty/)]
+    [post [1](https://hanwen.io/en/posts/use_typst_for_math_in_blog/),
+    [2](https://hanwen.io/en/posts/use_typst_for_more_than_math_in_blog/)]
   - Typst file watcher. https://github.com/typst-doc-cn/news/blob/main/scripts/build.mjs
 - [Zine](https://zine-ssg.io/): Static site generator in Zig with extended
   Markdown and strictly validated HTML.
