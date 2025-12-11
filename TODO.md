@@ -3,6 +3,8 @@
 ## Features
 
 - Fix CSS on mobile
+- Add `meta[property="article:published_time"]` and
+  `meta[property="article:modified_time"]`
 - Generate Atom feed
   - https://www.rfc-editor.org/rfc/rfc4287
 
