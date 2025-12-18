@@ -25,3 +25,5 @@ by Peter H. Salus for BYTE magazine.
 
 A machine-readable list of licensees was also maintained by Ken Thompson,
 modified a month before this, which I am [analyzing](https://github.com/thaliaarchi/unix-form-read).
+
+![Martin Newell's drawing of the Utah Teapot](newell_teapot_drawing.jpg)
