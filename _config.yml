@@ -4,4 +4,6 @@ exclude: [
   "README.md",
   "TODO.md",
   "blog/coq-turing-typeclass/README.md",
+  "blog/utah-unix-v4/.gitignore",
+  "blog/utah-unix-v4/Makefile"
 ]
