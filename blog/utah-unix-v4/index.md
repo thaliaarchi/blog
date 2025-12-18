@@ -19,6 +19,9 @@ https://www.tuhs.org/Archive/Applications/Dennis_Tapes/Gao_Analysis/v4_dist/setu
 My first lead was when I found UNIX News mentioned in ["Unix at 25"](https://web.archive.org/web/19961220135639/http://www.byte.com/art/9410/sec8/art3.htm),
 by Peter H. Salus for BYTE magazine.
 
-![UNIX News July 30 1975 page 1](unix_news_july-30-1975_page1.png)
+<!-- ![UNIX News July 30 1975 page 1](unix_news_july-30-1975_page1.png) -->
 
 ![19, MR. MARTIN E. NEWELL, COMPUTER SCIENCE DEPT., UNIV. OF UTAH, SALT LAKE CITY, UTAH 84112](unix_news_july-30-1975_newell.png)
+
+A machine-readable list of licensees was also maintained by Ken Thompson,
+modified a month before this, which I am [analyzing](https://github.com/thaliaarchi/unix-form-read).
