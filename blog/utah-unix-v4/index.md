@@ -27,3 +27,7 @@ A machine-readable list of licensees was also maintained by Ken Thompson,
 modified a month before this, which I am [analyzing](https://github.com/thaliaarchi/unix-form-read).
 
 ![Martin Newell's drawing of the Utah Teapot](newell_teapot_drawing.jpg)
+
+https://archive.org/search?query=subject%3A%22UNIX+license%22&sort=date
+
+![Definitions Appendix, including the contents of the UNIX distribution](distribution_contents_1974.png)

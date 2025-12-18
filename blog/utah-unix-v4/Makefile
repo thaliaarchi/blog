@@ -1,6 +1,6 @@
 .PHONY: all
 all: unix_news_july-30-1975_page1.png unix_news_july-30-1975_newell.png \
-	newell_teapot_drawing.jpg
+	newell_teapot_drawing.jpg distribution_contents_1974.png
 
 unix_news_july-30-1975_waterloo.pdf:
 	wget https://archive.org/download/unix_news_july-30-1975_waterloo/unix_news_july-30-1975_waterloo.pdf
@@ -40,6 +40,22 @@ newell_teapot_drawing.jpg: 102695462-03-01-src.tif
 		-sampling-factor 4:2:0 -quality 85 -interlace JPEG \
 		-strip \
 		newell_teapot_drawing.jpg
+
+manitoba_unix_license_1975.pdf:
+	wget -O manitoba_unix_license_1975.pdf https://archive.org/download/manitoba_unix_license_1975/1_manitoba_software_agreement_1975-02-01.pdf
+
+# The definitions appendix page was exactly identical between Nijmegen (1974-12-01)
+# and Manitoba (1975-02-01), and near-identical to UC Regents (1974-12-01),
+# except for wrapping and the page head and foot. Choose Manitoba as it looks
+# the best.
+distribution_contents_1974.png: manitoba_unix_license_1975.pdf
+	pdfimages -f 7 -l 7 manitoba_unix_license_1975.pdf manitoba_unix_license_1975
+	magick manitoba_unix_license_1975-0000.pbm \
+		-rotate -90 \
+		-strip \
+		distribution_contents_1974.png
+	optipng -o3 distribution_contents_1974.png
+	rm manitoba_unix_license_1975-0000.pbm
 
 .PHONY: clean
 clean:
