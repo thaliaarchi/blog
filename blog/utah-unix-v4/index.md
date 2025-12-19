@@ -40,18 +40,21 @@ with me to the Flux lab to see the tape.
 Photo: Me holding the tape.
 
 At this point, we had little information on the tape. It was probably after the
-first public presentation of UNIX was at the Symposium <TODO> Operating System
+first public presentation of UNIX was at the Symposium on Operating System
 Principles in October 1973 and definitely before V5 was released in June 1974.
 It was found within the papers of Jay Lepreau and the handwriting on the label
-matches his <ref>, so Flux staff assumed he received it, but he arrived at at
-the University in <TODO: 1980>, so it would have been someone else.
+matches his,[^mastodon_handwriting] so Flux staff assumed he received it, but he
+arrived at at the University in <TODO: 1980>, so it would have been someone
+else.
 
 Photo: Handwritten label.
 
-My first lead came while searching for early sources on UNIX <ref: Mastodon
-UNIX News credit and transcription link>. In ["Unix at 25"](https://web.archive.org/web/19961220135639/http://www.byte.com/art/9410/sec8/art3.htm)
+My first lead came while searching for early sources on UNIX.[^mastodon_licensee]
+[^mastodon_transcriptions] In ["Unix at 25"](https://web.archive.org/web/19961220135639/http://www.byte.com/art/9410/sec8/art3.htm)
 by Peter Salus for BYTE, he mentions UNIX News, the first users' newsletter. It
-discussed <my summary>. The first regular issue was mailed on <30 July 1975> to
+announced news, showcased modifications sites made to their installations,
+coordinated meetups, listed the first licensees and mailing list subscribers,
+and distributed patches. The first regular issue was mailed on 30 July 1975 to
 37 people, including Martin Newell of the University of Utah! It lists all the
 subscribers and it shows that the U was the 19th licensee of UNIX!
 
@@ -59,9 +62,10 @@ subscribers and it shows that the U was the 19th licensee of UNIX!
 
 ![19, MR. MARTIN E. NEWELL, COMPUTER SCIENCE DEPT., UNIV. OF UTAH, SALT LAKE CITY, UTAH 84112](unix_news_july-30-1975_newell.png)
 
-This list was derived from a list of licensees <ref: TUHS link> maintained by
-Ken Thompson dated 27 June 1975, which was edited with a form letter template
-tool with a key-value store <TODO: (which appears to be a fork of ed)>.
+This list was derived from a [list of licensees](https://www.tuhs.org/pipermail/tuhs/2023-July/028601.html)
+maintained by Ken Thompson dated 27 June 1975, which was created using a form
+letter template editor with a key-value database (which appears to be a fork of
+the venerable `ed` editor).
 
 Martin Newell is a pioneer in computer graphics famous for the Utah Teapot, the
 most widely used model for testing graphics engines.
@@ -79,9 +83,9 @@ process we take for granted now with 3D modeling software.
 
 ![Martin Newell's drawing of the Utah Teapot](newell_teapot_drawing.jpg)
 
-At this time, the computer graphics group at the U was <growing / only a few
-years old> and from 1973 to 1975, Martin was responsible for setting up a new
-facility in collaboration with Evans & Sutherland. E&S was a local graphics
+At this time, the computer graphics group at the U was rapidly growing. From
+1973 to 1975, Martin was responsible for setting up a [new graphics facility](https://archive.org/details/shaded_picture_system_proposal_1973-08-09)
+in collaboration with Evans & Sutherland. E&S was a local graphics
 company started by Dave Evans and Ivan Sutherland, the founders of the
 University's computer science department, and had close ties to the school. They
 were working on <TODO>. This facility was based on a PDP-11/45 computer that was
@@ -89,10 +93,17 @@ connected to <E&S devices>. It is most likely that UNIX V4 was acquired for this
 machine. However, it seems to have barely been used.
 
 Photo of diagram from proposal
-<TODO: upload the full proposal>
+https://archive.org/details/shaded_picture_system_proposal_1973-08-09/page/n10/mode/1up
 
 <TODO: My analysis of the boot sector>
 <TODO: My analysis of form.m>
+
+
+[^mastodon_handwriting]: https://discuss.systems/@ricci/115505025036183624
+[^mastodon_licensee]: https://discuss.systems/@ricci/115509057505895666
+[^mastodon_transcriptions]: https://discuss.systems/@ricci/115526434111161343
+
+---
 
 
 The tape was acquired at the dawn of computer graphics and considered for use in
