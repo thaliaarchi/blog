@@ -2,24 +2,26 @@
 
 by Thalia Archibald, December 2025
 
+<TODO: abstract>
+
 ## The discovery
 
-This summer, Aleks Maricq found a rare artifact of computing history at the
-University of Utah, a magnetic tape with the only surviving copy of UNIX V4
-from 1974. It was found in a storage closet of the Flux Research Group. The
-group, known for its systems research and <TODO: Emulab>, is preparing to move
-to the new engineering building, to be completed next year.
+This summer, a rare artifact of computing history was discovered at the
+University of Utah: a magnetic tape from 1974 with the only surviving copy of
+UNIX V4. Aleks Maricq, a researcher in the Flux Research Group, uncovered it in
+the group's storage closet while sorting through old materials. The group, which
+builds infrastructure for large computer systems, is preparing to relocate to a
+new engineering building scheduled for completion next year.
 
 Photo: Group in closet. Caption: Left to right …
 
-When I heard the news of the discovery, I jumped out of my chair, immediately
-recognizing its historical significance. I had spent the summer programming with
-UNIX V5 on a PiDP-11 and knew that no complete copy of V4 was known to exist.
-Back then, tapes and disks were expensive and not much thought was put into
-keeping copies of the old. V5 is the earliest complete UNIX distribution and can
-be easily run on emulated systems like the PiDP-11, a recreation of the console
-panel of a PDP-11 computer, powered by the SIMH emulator in a modern Raspberry
-Pi.
+When I heard the news of the discovery, I jumped out of my chair. I had spent
+the summer programming with UNIX V5 on a PiDP-11 and knew that no complete copy
+of V4 was known to exist. Back then, tapes and disks were expensive and not much
+thought was put into keeping copies of the old. V5 is the earliest complete
+UNIX distribution and can be easily run on emulated systems like the PiDP-11, a
+recreation of the console panel of a PDP-11 computer, powered by the SIMH
+emulator in a modern Raspberry Pi.
 
 Photo: Tape with my PiDP. <TODO: Link to full size photos>
 Caption: The UNIX V4 tape, my PiDP-11 with some switches set, and a <TODO>
