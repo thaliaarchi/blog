@@ -2,6 +2,8 @@
 
 by Thalia Archibald, December 2025
 
+## The discovery
+
 This summer, Aleks Maricq found a rare artifact of computing history at the
 University of Utah, a magnetic tape with the only surviving copy of UNIX V4
 from 1974. It was found in a storage closet of the Flux Research Group. The
@@ -9,14 +11,6 @@ group, known for its systems research and <TODO: Emulab>, is preparing to move
 to the new engineering building, to be completed next year.
 
 Photo: Group in closet. Caption: Left to right …
-
-This was the first version of the influential operating system to be released
-outside of Bell Laboratories and was sent to <TODO: about 30> universities. UNIX
-V4 was the culmination of the effort to rewrite the kernel in C, a new
-high-level programming language designed alongside UNIX. Previous attempts had
-failed, but once structures were introduced into the language, it became
-expressive enough to manage the complex state of the kernel and the <TODO:
-summer of 1973> was dedicated to this transition.
 
 When I heard the news of the discovery, I jumped out of my chair, immediately
 recognizing its historical significance. I had spent the summer programming with
@@ -31,6 +25,14 @@ Photo: Tape with my PiDP. <TODO: Link to full size photos>
 Caption: The UNIX V4 tape, my PiDP-11 with some switches set, and a <TODO>
 terminal.
 
+This was the first version of the influential operating system to be released
+outside of Bell Laboratories and was sent to <TODO: about 30> universities. UNIX
+V4 was the culmination of the effort to rewrite the kernel in C, a new
+high-level programming language designed alongside UNIX. Previous attempts had
+failed, but once structures were introduced into the language, it became
+expressive enough to manage the complex state of the kernel and the <TODO:
+summer of 1973> was dedicated to this transition.
+
 I wrote a small blurb about V4 and shared a link <TUHS> to School of Computing's
 grad school Slack in the #random channel, fully expecting little engagement, as
 few people match my interest in retrocomputing. To my surprise, Rob Ricci
@@ -39,6 +41,8 @@ with me to the Flux lab to see the tape.
 
 Photo: Me holding the tape.
 
+## Provenance of the tape
+
 At this point, we had little information on the tape. It was probably after the
 first public presentation of UNIX was at the Symposium on Operating System
 Principles in October 1973 and definitely before V5 was released in June 1974.
@@ -46,6 +50,8 @@ It was found within the papers of Jay Lepreau and the handwriting on the label
 matches his,[^mastodon_handwriting] so Flux staff assumed he received it, but he
 arrived at at the University in <TODO: 1980>, so it would have been someone
 else.
+
+[^mastodon_handwriting]: https://discuss.systems/@ricci/115505025036183624
 
 Photo: Handwritten label.
 
@@ -58,6 +64,9 @@ and distributed patches. The first regular issue was mailed on 30 July 1975 to
 37 people, including Martin Newell of the University of Utah! It lists all the
 subscribers and it shows that the U was the 19th licensee of UNIX!
 
+[^mastodon_licensee]: https://discuss.systems/@ricci/115509057505895666
+[^mastodon_transcriptions]: https://discuss.systems/@ricci/115526434111161343
+
 <!-- ![UNIX News July 30 1975 page 1](unix_news_july-30-1975_page1.png) -->
 
 ![19, MR. MARTIN E. NEWELL, COMPUTER SCIENCE DEPT., UNIV. OF UTAH, SALT LAKE CITY, UTAH 84112](unix_news_july-30-1975_newell.png)
@@ -66,6 +75,30 @@ This list was derived from a [list of licensees](https://www.tuhs.org/pipermail/
 maintained by Ken Thompson dated 27 June 1975, which was created using a form
 letter template editor with a key-value database (which appears to be a fork of
 the venerable `ed` editor).
+
+A machine-readable list of licensees was also maintained by Ken Thompson,
+modified a month before this, which I am [analyzing](https://github.com/thaliaarchi/unix-form-read).
+
+The tape was acquired at the dawn of computer graphics and considered for use in
+pioneering work. Just a year later the Utah Teapot was modeled. But, UNIX was
+not mature enough yet, so the tape was not used for any work and forgotten.
+Perhaps this neglect allowed it to survive to today. My theory is that it was
+placed in a tape rack, untouched and never overwritten. Then, after magnetic
+tapes were obsolete Jay Lepreau probably saw the "UNIX V4 DIST" while cleaning
+and, being the operating systems researcher that he was, saved it, writing his
+own label.
+
+https://archive.org/search?query=subject%3A%22UNIX+license%22&sort=date
+
+![Definitions Appendix, including the contents of the UNIX distribution](distribution_contents_1974.png)
+
+Events:
+
+- Paul Abegglen letter to Ritchie, 21 November 1973
+- UNIX V4 license agreement affective, estimated December 1973
+- UNIX V4 delivery letter, 31 May 1974
+
+## The dawn of computer graphics
 
 Martin Newell is a pioneer in computer graphics famous for the Utah Teapot, the
 most widely used model for testing graphics engines.
@@ -95,43 +128,24 @@ machine. However, it seems to have barely been used.
 Photo of diagram from proposal
 https://archive.org/details/shaded_picture_system_proposal_1973-08-09/page/n10/mode/1up
 
-<TODO: My analysis of the boot sector>
-<TODO: My analysis of form.m>
-
-
-[^mastodon_handwriting]: https://discuss.systems/@ricci/115505025036183624
-[^mastodon_licensee]: https://discuss.systems/@ricci/115509057505895666
-[^mastodon_transcriptions]: https://discuss.systems/@ricci/115526434111161343
-
----
-
-
-The tape was acquired at the dawn of computer graphics and considered for use in
-pioneering work. Just a year later the Utah Teapot was modeled. But, UNIX was
-not mature enough yet, so the tape was not used for any work and forgotten.
-Perhaps this neglect allowed it to survive to today. My theory is that it was
-placed in a tape rack, untouched and never overwritten. Then, after magnetic
-tapes were obsolete Jay Lepreau probably saw the "UNIX V4 DIST" while cleaning
-and, being the operating systems researcher that he was, saved it, writing his
-own label.
-
 Events:
-- Paul Abegglen letter to Ritchie, 21 November 1973
-- Martin Newell setting up new facility with PDP-11/45, 1973
-- UNIX V4 license agreement affective, estimated December 1973
-- PDP-11/45 in "Man Machine Communication in Three Dimensions", March 1974
-- UNIX V4 delivery letter, 31 May 1974
-- Utah Teapot modeled, circa 1975
-- Teapot in "Texture and Reflection in Computer Generated Images", July 1976
-- E&S PS-2 UNIX driver, manual dated October 1978
-- Randy Frank and Spencer Thomas at Boulder USENIX, 28 January – 2 February 1980
-- SLC POSIX meeting, 23–27 April 1991
+
+- Martin Newell:
+  - Martin Newell setting up new facility with PDP-11/45, 1973
+  - PDP-11/45 in "Man Machine Communication in Three Dimensions", March 1974
+  - Utah Teapot modeled, circa 1975
+  - Teapot in "Texture and Reflection in Computer Generated Images", July 1976
+- E&S:
+  - E&S PS-2 UNIX driver, manual dated October 1978
+- Others:
+  - Randy Frank and Spencer Thomas at Boulder USENIX,
+    28 January – 2 February 1980
+  - SLC POSIX meeting, 23–27 April 1991
+
+## Recovering the data
+
+## Analysis of UNIX V4
 
 https://www.tuhs.org/Archive/Applications/Dennis_Tapes/Gao_Analysis/v4_dist/setup.pdf
 
-A machine-readable list of licensees was also maintained by Ken Thompson,
-modified a month before this, which I am [analyzing](https://github.com/thaliaarchi/unix-form-read).
-
-https://archive.org/search?query=subject%3A%22UNIX+license%22&sort=date
-
-![Definitions Appendix, including the contents of the UNIX distribution](distribution_contents_1974.png)
+<TODO: My analysis of the boot sector>
