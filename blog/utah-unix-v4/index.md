@@ -28,12 +28,17 @@ Caption: The UNIX V4 tape, my PiDP-11 with some switches set, and a <TODO>
 terminal.
 
 UNIX V4 was the first version of the influential operating system to be released
-outside of Bell Laboratories and was sent to <TODO: about 30> universities. It
+outside of Bell Laboratories and was sent to 25 universities.[^v4_count] It
 was the culmination of the effort to rewrite the kernel in C, a new high-level
 programming language designed alongside UNIX. Earlier attempts had failed, but
 once structures were introduced into the language it became expressive enough to
 manage the kernel's complex state, and the <TODO: summer of 1973> was dedicated
 to the transition.
+
+[^v4_count]: Ken's list of licensees is ordered by date, although it does not
+  record dates. License #24 to Queen Mary University of London was granted in
+  May 1974. License #26 to the Rand Corporation, the first commercial license,
+  was granted in July 1974.
 
 I wrote a short blurb about V4 and posted a [link](https://www.tuhs.org/pipermail/tuhs/2025-November/032758.html)
 to School of Computing's grad school Slack in the #random channel, fully
