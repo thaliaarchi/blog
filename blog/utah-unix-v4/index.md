@@ -7,7 +7,7 @@ by Thalia Archibald, December 2025
 ## The discovery
 
 This summer, a rare artifact of computing history was discovered at the
-University of Utah: a magnetic tape from 1974 with the only surviving copy of
+University of Utah: a magnetic tape from 1974 containing the only surviving copy of
 UNIX V4. Aleks Maricq, a researcher in the Flux Research Group, uncovered it in
 the group's storage closet while sorting through old materials. The group, which
 builds infrastructure for large computer systems, is preparing to relocate to a
@@ -15,42 +15,42 @@ new engineering building scheduled for completion next year.
 
 Photo: Group in closet. Caption: Left to right …
 
-When I heard the news of the discovery, I jumped out of my chair. I had spent
-the summer programming with UNIX V5 on a PiDP-11 and knew that no complete copy
-of V4 was known to exist. Back then, tapes and disks were expensive and not much
-thought was put into keeping copies of the old. V5 is the earliest complete
-UNIX distribution and can be easily run on emulated systems like the PiDP-11, a
-recreation of the console panel of a PDP-11 computer, powered by the SIMH
-emulator in a modern Raspberry Pi.
+When learned of the discovery, I jumped out of my chair. I had spent the summer
+programming with UNIX V5 on a PiDP-11 and knew no complete copy of V4 was known
+to exist. At the time, tapes and disks were expensive and not much thought was
+put into keeping copies of the old, as research progressed quickly. V5 is the
+earliest complete UNIX distribution and can be easily run on emulated systems
+like the PiDP-11, a recreation of the console panel of a PDP-11 computer,
+powered by the SIMH emulator in a modern Raspberry Pi.
 
 Photo: Tape with my PiDP. <TODO: Link to full size photos>
 Caption: The UNIX V4 tape, my PiDP-11 with some switches set, and a <TODO>
 terminal.
 
-This was the first version of the influential operating system to be released
-outside of Bell Laboratories and was sent to <TODO: about 30> universities. UNIX
-V4 was the culmination of the effort to rewrite the kernel in C, a new
-high-level programming language designed alongside UNIX. Previous attempts had
-failed, but once structures were introduced into the language, it became
-expressive enough to manage the complex state of the kernel and the <TODO:
-summer of 1973> was dedicated to this transition.
+UNIX V4 was the first version of the influential operating system to be released
+outside of Bell Laboratories and was sent to <TODO: about 30> universities. It
+was the culmination of the effort to rewrite the kernel in C, a new high-level
+programming language designed alongside UNIX. Earlier attempts had failed, but
+once structures were introduced into the language it became expressive enough to
+manage the kernel's complex state, and the <TODO: summer of 1973> was dedicated
+to the transition.
 
-I wrote a small blurb about V4 and shared a link <TUHS> to School of Computing's
-grad school Slack in the #random channel, fully expecting little engagement, as
-few people match my interest in retrocomputing. To my surprise, Rob Ricci
-responded that it was found here, just down the hall! So I brought my whole lab
-with me to the Flux lab to see the tape.
+I wrote a short blurb about V4 and posted a [link](https://www.tuhs.org/pipermail/tuhs/2025-November/032758.html)
+to School of Computing's grad school Slack in the #random channel, fully
+expecting little engagement. To my surprise, Rob Ricci replied that it was found
+here, just down the hall! Now my whole lab was interested, so we visited the
+Flux lab to see the tape.
 
 Photo: Me holding the tape.
 
 ## Provenance of the tape
 
-At this point, we had little information on the tape. It was probably after the
-first public presentation of UNIX was at the Symposium on Operating System
-Principles in October 1973 and definitely before V5 was released in June 1974.
-It was found within the papers of Jay Lepreau and the handwriting on the label
+At first, we had little context. The tape was likely created after the
+first public presentation of UNIX at the Symposium on Operating System
+Principles in October 1973 and before V5 was released in June 1974.
+It was found among the papers of Jay Lepreau and the handwriting on the label
 matches his,[^mastodon_handwriting] so Flux staff assumed he received it, but he
-arrived at at the University in <TODO: 1980>, so it would have been someone
+arrived at the University in <TODO: 1980>, so it must have been received by someone
 else.
 
 [^mastodon_handwriting]: https://discuss.systems/@ricci/115505025036183624
@@ -73,21 +73,21 @@ subscribers and it shows that the U was the 19th licensee of UNIX!
 
 ![19, MR. MARTIN E. NEWELL, COMPUTER SCIENCE DEPT., UNIV. OF UTAH, SALT LAKE CITY, UTAH 84112](unix_news_july-30-1975_newell.png)
 
-This list was derived from a [list of licensees](https://www.tuhs.org/pipermail/tuhs/2023-July/028601.html)
-maintained by Ken Thompson dated 27 June 1975, which was created using a form
+That list was derived from a [list of licensees](https://www.tuhs.org/pipermail/tuhs/2023-July/028601.html)
+maintained by Ken Thompson dated 27 June 1975, created using a form
 letter template editor with a key-value database (which appears to be a fork of
 the venerable `ed` editor).
 
 A machine-readable list of licensees was also maintained by Ken Thompson,
 modified a month before this, which I am [analyzing](https://github.com/thaliaarchi/unix-form-read).
 
-The tape was acquired at the dawn of computer graphics and considered for use in
+The tape was acquired at the dawn of computer graphics and likely considered for use in
 pioneering work. Just a year later the Utah Teapot was modeled. But, UNIX was
-not mature enough yet, so the tape was not used for any work and forgotten.
-Perhaps this neglect allowed it to survive to today. My theory is that it was
+not mature enough yet, so the version from the tape was not used for any work and forgotten.
+Perhaps that neglect let it survive to today. My theory is that it was
 placed in a tape rack, untouched and never overwritten. Then, after magnetic
-tapes were obsolete Jay Lepreau probably saw the "UNIX V4 DIST" while cleaning
-and, being the operating systems researcher that he was, saved it, writing his
+tapes were obsolete, Jay Lepreau probably saw the "UNIX V4 DIST" while cleaning
+and, being the operating systems researcher that he was, saved it and wrote his
 own label.
 
 https://archive.org/search?query=subject%3A%22UNIX+license%22&sort=date
@@ -102,7 +102,7 @@ Events:
 
 ## The dawn of computer graphics
 
-Martin Newell is a pioneer in computer graphics famous for the Utah Teapot, the
+Martin Newell is a pioneer in computer graphics, best known for the Utah Teapot, the
 most widely used model for testing graphics engines.
 
 Photo: Teapot renderings (use low res from CHM).
@@ -110,7 +110,7 @@ Caption: It first appeared in Martin's thesis, but then spread from the
 "Textures" paper. <ref: Blinn email>
 
 The story goes that he was having tea with his wife, trying to think of a good
-object to model, when she suggested that their tea set would be perfect. It has
+object to model, when she suggested their tea set. It has
 several interesting properties: it is round, but not spherical, and it casts a
 shadow on itself <TODO>. So he measured it by hand and plowed it on paper, then
 typed the coordinates into a computer, and thus the Utah Teapot was born—a
@@ -118,12 +118,12 @@ process we take for granted now with 3D modeling software.
 
 ![Martin Newell's drawing of the Utah Teapot](newell_teapot_drawing.jpg)
 
-At this time, the computer graphics group at the U was rapidly growing. From
+The computer graphics group at the U was rapidly growing. From
 1973 to 1975, Martin was responsible for setting up a [new graphics facility](https://archive.org/details/shaded_picture_system_proposal_1973-08-09)
 in collaboration with Evans & Sutherland. E&S was a local graphics
 company started by Dave Evans and Ivan Sutherland, the founders of the
 University's computer science department, and had close ties to the school. They
-were working on <TODO>. This facility was based on a PDP-11/45 computer that was
+were working on <TODO>. This facility was based on a PDP-11/45 computer
 connected to <E&S devices>. It is most likely that UNIX V4 was acquired for this
 machine. However, it seems to have barely been used.
 
