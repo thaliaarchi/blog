@@ -15,11 +15,17 @@
 - Evans & Sutherland connection to BYU's CS Animation dept and CS PhD
 - V6 vs xv6
 - Perl 1.0 regular expression provenance
-- The historical context of Dijkstra's “Go To Statement Considered Harmful”.
-  Everyone misses that structured programming was not yet the norm. Talk about
-  Ratfor bringing C-style control flow to Fortran. Occasional use for error
-  handling is fine! In response to https://parallelprogrammer.substack.com/p/go-to-statement-considered-occasionally
-  among others.
+- The historical context of Dijkstra's “Go To Statement Considered Harmful”:
+  - Everyone misses that structured programming was not yet the norm. The paper
+    was about the common use of exclusively goto. Talk about Ratfor bringing
+    C-style control flow to Fortran. Occasional use for error handling and
+    interpreters is fine!
+  - In response to <https://parallelprogrammer.substack.com/p/go-to-statement-considered-occasionally>
+    among others.
+  - John Lions: “The source code is for the most part quite readable and
+    although a few "goto"s are used, it is generally well structured and there
+    is no need to resort to flowcharts for documentation.”
+    <https://dl.acm.org/doi/pdf/10.1145/775396.775402>
 - A comparison of BibTeX and [Hayagriva](https://github.com/typst/hayagriva),
   Typst's own bibliography system which is strongly typed and has parent items
   - Is Hayagriva weakly typed?
