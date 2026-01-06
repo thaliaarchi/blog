@@ -22,6 +22,12 @@
     interpreters is fine!
   - In response to <https://parallelprogrammer.substack.com/p/go-to-statement-considered-occasionally>
     among others.
+  - Dijstra's original submission <https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html>
+  - Dijstra: “I had submitted a paper under the title "A case against the goto
+    statement", which, in order to speed up its publication, the editor had
+    changed into a "letter to the Editor", and in the process he had given it a
+    new title of his own invention! The editor was Niklaus Wirth.”
+    <https://www.cs.utexas.edu/~EWD/transcriptions/EWD13xx/EWD1308.html>
   - John Lions: “The source code is for the most part quite readable and
     although a few "goto"s are used, it is generally well structured and there
     is no need to resort to flowcharts for documentation.”
