@@ -181,9 +181,10 @@ c 'orld';
 ## B to NB
 
 But this everything-is-a-word strategy fails on the PDP-11, which UNIX very
-quickly transitioned to. This machine has 16-bit words and 8-bit addressability,
-leading to a hack where global addresses that weren't word-aligned by the linker
-would be patched at runtime [^bsquoze].
+quickly transitioned to. This machine has 16-bit words and 8-bit addressing.
+Since addresses could then be misaligned, B on the PDP-11 needed a hack where
+globals that weren't word-aligned by the linker would be patched at runtime
+[^bsquoze].
 
 So, around May 1972 [^cstart], Dennis Ritchie added `char` and `[]` pointer
 types to the language, calling it "new B". Note the use of only `[]`, instead of
