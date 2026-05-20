@@ -355,11 +355,11 @@ video terminals.
 
 It had many escape sequences, black and red colors, half-forward and
 half-reverse line feeds (useful for sub- and superscripts), reverse line feed,
-horizontal and vertical tab setting, and half- and full-duplex [^37esc]. Last
-year, Brian Kernighan recounted a humorous use of these features in the UNIX
-group: Robert Morris Sr. sent an email to Joe Ossanna which contained a hundred
-reverse line feeds, making it suck the long fan-fold paper out the back of the
-Model 37 and drop it on the floor [^37rev].
+horizontal and vertical tab setting, and half- and full-duplex [^37notes]
+[^37type]. Last year, Brian Kernighan recounted a humorous use of these features
+in the UNIX group: Robert Morris Sr. sent an email to Joe Ossanna which
+contained a hundred reverse line feeds, making it suck the long fan-fold paper
+out the back of the Model 37 and drop it on the floor [^37vcf].
 
 ## Terminals on UNIX
 
@@ -578,10 +578,14 @@ int main(int argc, char *argv[]) <%
     by Corentin Jabot, 6 April 2023
 
 
-[^37esc]: ["Teletype Model 37 functional specification"](https://github.com/thaliaarchi/tty37-docs/blob/main/tty37.md#escape-sequences)
+[^37notes]: ["Teletype Model 37 functional specification"](https://github.com/thaliaarchi/tty37-docs/blob/main/tty37.md#escape-sequences)
     by Thalia Archibald, 2025
 
-[^37rev]: VCF East: ["UNIX: A History and a Memoir"](https://www.youtube.com/watch?v=WEb_YL1K1Qg&t=2940s)
+[^37type]: ["37 Typing Unit (37P003 and up): Description and Principles of Operation"](https://www.navy-radio.com/manuals/tty/m37/574-320-101-iss2-7302.pdf),
+    Teletype Corporation, Bell System Practices, Section 574-320-101, Issue 2,
+    February 1973, section 4.23
+
+[^37vcf]: VCF East: ["UNIX: A History and a Memoir"](https://www.youtube.com/watch?v=WEb_YL1K1Qg&t=2940s)
     by Brian Kernighan, 15 August 2025, 49:00 and [transcribed](https://github.com/thaliaarchi/tty37-docs/blob/main/unix.md#teletype-model-33-and-37-use-in-unix)
 
 
