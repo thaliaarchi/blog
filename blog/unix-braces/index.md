@@ -467,124 +467,160 @@ int main(int argc, char *argv[]) <%
 %>
 ```
 
+
 [^question]: ["What Teletype are you using? The ASR33 lacks curly brackets which
-  makes me skeptical it was used in C development. Yes, there are trigraphs (
-  https://en.wikipedia.org/wiki/Digraphs_and_trigraphs_(programming) ) but FWIU
-  these came some time later."](https://mastodon.radio/@vk2bea/116601334222030852)
-  by Michael Katzmann, 19 May 2026
+    makes me skeptical it was used in C development. Yes, there are trigraphs (
+    https://en.wikipedia.org/wiki/Digraphs_and_trigraphs_(programming) ) but
+    FWIU these came some time later."](https://mastodon.radio/@vk2bea/116601334222030852)
+    by Michael Katzmann, 19 May 2026
+
 
 [^v3dc]: UNIX Programmer's Manual Third Edition, [dc(4)](http://squoze.net/UNIX/v3man/man4/dc)
-  "dc -- DC-11 communications interfaces", February 1973
+    "dc -- DC-11 communications interfaces", February 1973
+
 [^v4dc]: UNIX Programmer's Manual Fourth Edition, [dc(4)](http://squoze.net/UNIX/v4man/man4/dc)
-  "dc -- DC-11 communications interfaces", November 1973
+    "dc -- DC-11 communications interfaces", November 1973
+
 [^v1canon]: UNIX V1 <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V1/u7.s">u7.s</a>:canon</code>,
-  snapshotted 14 September 1972
+    snapshotted 14 September 1972
+
 [^nsyscanon]: nsys <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=Nsys/dmr/tty.c">/usr/sys/dmr/tty.c</a>:canon</code>,
-  modified and snapshotted 31 August 1973
+    modified and snapshotted 31 August 1973
+
 [^v4canon]: Utah_v4 <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V4/usr/sys/dmr/tty.c">/usr/sys/dmr/tty.c</a>:canon</code>
-  and `mptab`, modified 10 June 1974,
-  and <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V4/usr/sys/dmr/lp.c">/usr/sys/dmr/lp.c</a>:lpcanon</code>,
-  modified 10 June 1974, snapshotted 12 June 1974
+    and `mptab`, modified 10 June 1974,
+    and <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V4/usr/sys/dmr/lp.c">/usr/sys/dmr/lp.c</a>:lpcanon</code>,
+    modified 10 June 1974, snapshotted 12 June 1974
+
 [^v5canon]: Dennis_v5 <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V5/usr/sys/dmr/tty.c">/usr/sys/dmr/tty.c</a>:canon</code>
-  and `mptab`, modified 26 November 1974,
-  and <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V5/usr/sys/dmr/lp.c">/usr/sys/dmr/lp.c</a>:lpcanon</code>,
-  modified 26 November 1974, snapshotted 21 March 1975
+    and `mptab`, modified 26 November 1974,
+    and <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V5/usr/sys/dmr/lp.c">/usr/sys/dmr/lp.c</a>:lpcanon</code>,
+    modified 26 November 1974, snapshotted 21 March 1975
+
 
 [^bcpl67]: ["The BCPL Reference Manual"](https://softwarepreservation.computerhistory.org/BCPL/project_mac/Richards-BCPL-ReferenceManual.pdf)
-  by Martin Richards, 21 July 1967, and a [forward by Dennis Ritchie](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/bcpl.html)
+    by Martin Richards, 21 July 1967, and a [forward by Dennis Ritchie](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/bcpl.html)
+
 [^bcpl79]: [*BCPL - the language and its compiler*](https://archive.org/details/richards1979bcpl)
-  by Martin Richards and Colin Whitby-Stevens, 1979
+    by Martin Richards and Colin Whitby-Stevens, 1979
+
 [^bcpldmr]: ["Martin Richards's BCPL Reference Manual, 1967"](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/bcpl.html),
-  foreword by Dennis Ritchie
+    foreword by Dennis Ritchie
+
 
 [^bv0]: ["DRAFT: The UNIX Time-Sharing System](https://www.tuhs.org/Archive/Distributions/Research/McIlroy_v0/UnixEditionZero-Threshold_OCR.pdf)
-  by Dennis Ritchie, circa mid-1971, and [transcribed](https://github.com/thaliaarchi/unix-history/blob/main/manuals/v0.txt),
-  documents the `b` command
+    by Dennis Ritchie, circa mid-1971, and [transcribed](https://github.com/thaliaarchi/unix-history/blob/main/manuals/v0.txt),
+    documents the `b` command
+
 [^bref]: ["Users' Reference to B"](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/kbman.html)
-  by Ken Thompson, 7 January 1972
+    by Ken Thompson, 7 January 1972
+
 [^bintro]: "A Tutorial Introduction to the Language B" by Brian Kernighan,
-  [Bell Laboratories Computing Science Technical Report #8: The Programming Language B](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/bintro.html),
-  January 1973
+    [Bell Laboratories Computing Science Technical Report #8: The Programming Language B](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/bintro.html),
+    January 1973
+
 [^blib]: [Dennis_Tapes] s2 `/usr/lib/bilib.a`, modified 8 June 1972, and
-  `/usr/lib/libb.a`, modified 19 June 1972
+    `/usr/lib/libb.a`, modified 19 June 1972
+
 [^bsquoze]: ["The B Programming Language"](http://squoze.net/B/)
-  by Angelo Papenhoff, first published 2019
+    by Angelo Papenhoff, first published 2019
+
 [^bprograms]: PDP-7 UNIX [`ind.b`](https://github.com/DoctorWkt/pdp7-unix/blob/master/src/cmd/ind.b)
-  and [`lcase.b`](https://github.com/DoctorWkt/pdp7-unix/blob/master/src/cmd/lcase.b),
-  pages 2 and 4 of Norman Wilson's [08-rest.pdf](https://www.tuhs.org/Archive/Distributions/Research/McIlroy_v0/08-rest.pdf),
-  undated
+    and [`lcase.b`](https://github.com/DoctorWkt/pdp7-unix/blob/master/src/cmd/lcase.b),
+    pages 2 and 4 of Norman Wilson's [08-rest.pdf](https://www.tuhs.org/Archive/Distributions/Research/McIlroy_v0/08-rest.pdf),
+    undated
+
 
 [^chist]: ["The Development of the C Language"](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html)
-  by Dennis Ritchie, 1993
+    by Dennis Ritchie, 1993
+
 [^cstart]: The earliest surviving file of any C compiler is [Dennis_Tapes]
-  <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/sptab.s">sptab.s</a></code>,
-  modified 4 June 1972 (some ar archive members may be modified sooner, but
-  their epoch looks wrong). The earliest surviving .c file is [Dennis_Tapes]
-  `dmr/cgd/cvft.c`, modified 11 June 1972. The only surviving NB .b file is
-  [Dennis_Tapes] `dmr/fc.b`, modified 4 May 1972 (all other .b files are
-  untyped). Thus, NB evolved into C during May and early June 1972.
+    <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/sptab.s">sptab.s</a></code>,
+    modified 4 June 1972 (some ar archive members may be modified sooner, but
+    their epoch looks wrong). The earliest surviving .c file is [Dennis_Tapes]
+    `dmr/cgd/cvft.c`, modified 11 June 1972. The only surviving NB .b file is
+    [Dennis_Tapes] `dmr/fc.b`, modified 4 May 1972 (all other .b files are
+    untyped). Thus, NB evolved into C during May and early June 1972.
+
 [^clvalue]: ["A cursed feature of C in 1972"](https://discuss.systems/@thalia/116547910760959567)
-  by Thalia Archibald, 9 May 2026
+    by Thalia Archibald, 9 May 2026
+
 [^cgdlvalue]: [Dennis_Tapes] `dmr/cgd/cvft.c:putchar` and `getcha`,
-  modified 11 June 1972
+    modified 11 June 1972
+
 [^nsysptr]: The earliest surviving C file to use `*` for pointers is
-  nsys [`/usr/sys/ken/iget.c`](https://www.tuhs.org/cgi-bin/utree.pl?file=Nsys/ken/iget.c),
-  modified 30 August 1973
+    nsys [`/usr/sys/ken/iget.c`](https://www.tuhs.org/cgi-bin/utree.pl?file=Nsys/ken/iget.c),
+    modified 30 August 1973
+
 [^cbrace]: `$` and `\` are unknown characters in the earliest C compiler lexer in
-  [Dennis_Tapes] <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/nc0/c02.c">nc0/c02.c</a>:statement</code>,
-  <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/nc0/c00.c">nc0/c00.c</a>:symbol</code>,
-  and <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/nc0/c0t.s">nc0/c0t.s</a>:ctab</code>,
-  modified July 1972
+    [Dennis_Tapes] <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/nc0/c02.c">nc0/c02.c</a>:statement</code>,
+    <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/nc0/c00.c">nc0/c00.c</a>:symbol</code>,
+    and <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">last1120c</a>/<a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V2/c/nc0/c0t.s">nc0/c0t.s</a>:ctab</code>,
+    modified July 1972
+
 
 [^prestructparen]: The C parser in [Dennis_Tapes]
-  <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">prestruct-c</a>/<a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/prestruct-c/c00.c">c00.c</a>:tdeclare</code>,
-  modified 6 December 1972, snapshotted 8 December 1972, only accepts the
-  parenthesis form.
+    <code><a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/primevalC.html">prestruct-c</a>/<a href="https://www.nokia.com/bell-labs/about/dennis-m-ritchie/prestruct-c/c00.c">c00.c</a>:tdeclare</code>,
+    modified 6 December 1972, snapshotted 8 December 1972, only accepts the
+    parenthesis form.
+
 [^nsysparen]: nsys <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=Nsys/user.h">/usr/sys/user.h</a>:struct user</code>,
-  modified and snapshotted 30 August 1973, uses both parenthesis- and
-  brace-style structs in the same file.
+    modified and snapshotted 30 August 1973, uses both parenthesis- and
+    brace-style structs in the same file.
+
 [^v4paren]: Utah_v4 <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V4/usr/c/c02.c">/usr/c/c02.c</a>:strdec</code>,
-  modified 10 June 1974, snapshotted 12 June 1974
+    modified 10 June 1974, snapshotted 12 June 1974
+
 
 [^lexub]: P2621R3: ["UB? In My Lexer?"](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2621r3.pdf)
-  by Corentin Jabot, 6 April 2023
+    by Corentin Jabot, 6 April 2023
+
 
 [^37esc]: ["Teletype Model 37 functional specification"](https://github.com/thaliaarchi/tty37-docs/blob/main/tty37.md#escape-sequences)
-  by Thalia Archibald, 2025
+    by Thalia Archibald, 2025
+
 [^37rev]: VCF East: ["UNIX: A History and a Memoir"](https://www.youtube.com/watch?v=WEb_YL1K1Qg&t=2940s)
-  by Brian Kernighan, 15 August 2025, 49:00 and [transcribed](https://github.com/thaliaarchi/tty37-docs/blob/main/unix.md#teletype-model-33-and-37-use-in-unix)
+    by Brian Kernighan, 15 August 2025, 49:00 and [transcribed](https://github.com/thaliaarchi/tty37-docs/blob/main/unix.md#teletype-model-33-and-37-use-in-unix)
+
 
 [^termspdp7]: PDP-7 UNIX `init` supported only a generic tty in [`init.s:init1`](https://github.com/DoctorWkt/pdp7-unix/blob/master/src/cmd/init.s#L19),
-  almost certainly the Teletype Model 33, and the machine's keyboard and display
-  in [`init.s:init1`](https://github.com/DoctorWkt/pdp7-unix/blob/master/src/cmd/init.s#L29).
+    almost certainly the Teletype Model 33, and the machine's keyboard and display
+    in [`init.s:init1`](https://github.com/DoctorWkt/pdp7-unix/blob/master/src/cmd/init.s#L29).
+
 [^termsv0]: ["DRAFT: The UNIX Time-Sharing System](https://www.tuhs.org/Archive/Distributions/Research/McIlroy_v0/UnixEditionZero-Threshold_OCR.pdf)
-  by Dennis Ritchie, circa mid-1971, and [transcribed](https://github.com/thaliaarchi/unix-history/blob/main/manuals/v0.txt),
-  writes "Currently this signal is generated by typing the ASCII "FS" character
-  (control `\` on model 37 Teletypes)", implying common use of the Teletype
-  Model 37. Other terminals are mentioned too.
+    by Dennis Ritchie, circa mid-1971, and [transcribed](https://github.com/thaliaarchi/unix-history/blob/main/manuals/v0.txt),
+    writes "Currently this signal is generated by typing the ASCII "FS" character
+    (control `\` on model 37 Teletypes)", implying common use of the Teletype
+    Model 37. Other terminals are mentioned too.
+
 [^termsv1]: UNIX V1 <code><a href="https://www.tuhs.org/cgi-bin/utree.pl?file=V1/u7.s">u9.s</a>:trcv</code>,
-  snapshotted 14 September 1972, switched between Teletype Model 37/non-37
-  parity filtering.
+    snapshotted 14 September 1972, switched between Teletype Model 37/non-37
+    parity filtering.
+
 [^termsv245]: `getty` from V2 to V5 cycles through speeds and login messages,
-  starting with TermiNet 300, then Teletype Model 37. Other terminals were
-  supported by drivers.
-  [Dennis_Tapes] s1 [`getty.s`](https://github.com/DoctorWkt/unix-jun72/blob/master/src/cmd/getty.s#L147),
-  modified circa June 1972.
-  Utah_v4 [`/usr/source/s1/getty.s`](https://www.tuhs.org/cgi-bin/utree.pl?file=V4/usr/source/s1/getty.s),
-  modified 10 June 1974, snapshotted 12 June 1974.
-  Dennis_v5 [`/usr/source/s1/getty.s`](https://www.tuhs.org/cgi-bin/utree.pl?file=V5/usr/source/s1/getty.s),
-  modified 27 November 1974, snapshotted 21 March 1975.
+    starting with TermiNet 300, then Teletype Model 37. Other terminals were
+    supported by drivers.
+    [Dennis_Tapes] s1 [`getty.s`](https://github.com/DoctorWkt/unix-jun72/blob/master/src/cmd/getty.s#L147),
+    modified circa June 1972.
+    Utah_v4 [`/usr/source/s1/getty.s`](https://www.tuhs.org/cgi-bin/utree.pl?file=V4/usr/source/s1/getty.s),
+    modified 10 June 1974, snapshotted 12 June 1974.
+    Dennis_v5 [`/usr/source/s1/getty.s`](https://www.tuhs.org/cgi-bin/utree.pl?file=V5/usr/source/s1/getty.s),
+    modified 27 November 1974, snapshotted 21 March 1975.
+
 [^termsv67]: Dennis_v6 [`/usr/source/s1/getty.c`](https://www.tuhs.org/cgi-bin/utree.pl?file=V6/usr/source/s1/getty.c),
-  modified 13 May 1975, snapshotted 18 July 1975.
-  Spencer_v7 [`/usr/src/cmd/getty.c`](https://www.tuhs.org/cgi-bin/utree.pl?file=V7/usr/src/cmd/getty.c),
-  modified 5 May 1979, snapshotted 8 June 1979.
+    modified 13 May 1975, snapshotted 18 July 1975.
+    Spencer_v7 [`/usr/src/cmd/getty.c`](https://www.tuhs.org/cgi-bin/utree.pl?file=V7/usr/src/cmd/getty.c),
+    modified 5 May 1979, snapshotted 8 June 1979.
+
 
 [^kenlower]: ["[TUHS] Unix gre, forgotten successor to grep (was: forth on early unix)"](https://www.tuhs.org/pipermail/tuhs/2025-September/032567.html)
-  by Ken Thompson, 23 September 2025, and
-  ["[TUHS] A PDP-10 used for UNIX just after the PDP-7?"](https://www.tuhs.org/pipermail/tuhs/2026-January/033094.html)
-  by Ken Thompson, 16 January 2026
+    by Ken Thompson, 23 September 2025, and
+    ["[TUHS] A PDP-10 used for UNIX just after the PDP-7?"](https://www.tuhs.org/pipermail/tuhs/2026-January/033094.html)
+    by Ken Thompson, 16 January 2026
+
 
 [^mytty37]: ["Teletype Model 37 documentation"](https://github.com/thaliaarchi/tty37-docs)
-  by Thalia Archibald, 2025
+    by Thalia Archibald, 2025
+
 
 [Dennis_Tapes]: https://www.tuhs.org/Archive/Applications/Dennis_Tapes/
