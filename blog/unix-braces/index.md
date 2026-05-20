@@ -248,12 +248,12 @@ PDP-11 supported braces, in addition to the following escapes [^bref]:
 
 - `*0`: NUL
 - `*e`: End of file
-- `*(`: {
-- `*)`: }
+- `*(`: `{`
+- `*)`: `}`
 - `*t`: Tab
-- `**`: *
-- `*'`: '
-- `*"`: "
+- `**`: `*`
+- `*'`: `'`
+- `*"`: `"`
 - `*n`: Line feed
 
 It probably had this behavior back to its initial implementation on the PDP-11
@@ -375,7 +375,7 @@ rewritten in C, to support many more terminals and further in V7, but still
 supported the Model 37 [^termsv67].
 
 No version of the assembly kernel uses braces in its source code, even V1, once
-development was done with the Model 37.
+development used the Model 37.
 
 ## Modern implications
 
@@ -398,7 +398,8 @@ Design decisions from 1963 still affect us today, 63 years later!
 ---
 
 *I collect teletypes and am seeking a Teletype Model 37 [^mytty37]. If you have
-any leads on one, please get in touch! And, I hope to get a PDP-11 too.*
+any leads on one, please get in touch! And, I hope to eventually acquire a
+PDP-11 too.*
 
 ## Appendix: hello, world
 
@@ -467,6 +468,7 @@ int main(int argc, char *argv[]) <%
 %>
 ```
 
+## References
 
 [^question]: ["What Teletype are you using? The ASR33 lacks curly brackets which
     makes me skeptical it was used in C development. Yes, there are trigraphs (
