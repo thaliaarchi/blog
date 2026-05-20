@@ -4,7 +4,9 @@ title: "Curly braces: An evolution of UNIX and C"
 date: 2026-05-19
 ---
 
-by Thalia Archibald, 19 May 2026
+# Curly braces: An evolution of UNIX and C
+
+19 May 2026
 
 How were `{` `}` curly braces typed with a Teletype Model 33 on UNIX? These
 characters are especially important for C, but absent on this terminal. I was
