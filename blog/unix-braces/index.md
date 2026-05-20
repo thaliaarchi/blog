@@ -1,4 +1,8 @@
-# Curly braces: An evolution of UNIX and C
+---
+layout: post
+title: "Curly braces: An evolution of UNIX and C"
+date: 2026-05-19
+---
 
 by Thalia Archibald, 19 May 2026
 
