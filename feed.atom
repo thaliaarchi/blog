@@ -14,4 +14,15 @@
     <summary>Proof by construction that the typeclass resolver in Coq can
       perform arbitrary computation while searching for instances.</summary>
   </entry>
+  <entry>
+    <title>Curly braces: An evolution of UNIX and C</title>
+    <link>https://thaliaarchi.github.io/unix-braces/</link>
+    <published>2026-05-19T22:03:24-06:00</published>
+    <updated>2026-05-19T22:03:24-06:00</updated>
+    <id>unix-braces</id>
+    <summary>How were curly braces typed with a Teletype Model 33 on UNIX? These
+      characters are especially important for C, but absent on this terminal. A
+      tour of the coevolution of UNIX and C, from this perspective, featuring
+      "hello, world" through the ages.</summary>
+  </entry>
 </feed>
