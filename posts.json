@@ -11,5 +11,15 @@
       "https://thaliaarchi.github.io/coq-turing-typeclass/index.html",
       "https://github.com/thaliaarchi/coq-turing-typeclass"
     ]
+  },
+  {
+    "slug": "unix-braces",
+    "title": "Curly braces: An evolution of UNIX and C",
+    "published": "2026-05-19 22:03:24 -0600",
+    "updated": "2026-05-20 01:21:27 -0600",
+    "url_history": [
+      "https://thalia.dev/blog/unix-braces/",
+      "https://thalia.dev/blog/unix-braces/index.html"
+    ]
   }
 ]
