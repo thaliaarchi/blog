@@ -134,15 +134,15 @@ name Martin Newell. And I'll get to him.
 So I did all this digging. And then Aleks, who found the tape, found this letter
 from Ken, apologizing that they were delayed shipping the system because they
 needed to print more docs. So now this is quite an interesting tidbit because
-the tape is from June 1974. And UNIX V5 was released in June 1974. But the
+the tape is from June 1974 and UNIX V5 was released in June 1974, but the
 documentation we received was for V4. So what happened is we probably got the
 very last printing of the documentation. And because in those days when you got
-a distribution, you'd ask Ken, is today a good day to cut a tape? And if it was,
-he'd copy it for you. But if not, he'd say, oh, I've got some bugs to fix. Come
-back later. So it was very bleeding edge. And so ours is not really V4. But it
-is V4 because UNIX was versioned by the manual. So I still call it V4. But it's
-pretty much the cleanest V5 you could get. The other V5 we have is nine months
-later.
+a distribution, you'd ask Ken, "is today a good day to cut a tape?", and if it
+was, he'd copy it for you. But if not, he'd say, "oh, I've got some bugs to fix;
+come back later." So it was very bleeding edge. And so ours is not really V4.
+But it is V4 because UNIX was versioned by the manual, so I still call it V4.
+But it's pretty much the cleanest V5 you could get. The other V5 we have is nine
+months later.
 
 So this has a weird connection. So I mentioned Martin Newell.
 
