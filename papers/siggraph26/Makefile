@@ -12,7 +12,7 @@ submit: build
 	rm -rf siggraphfrontiers26-1 siggraphfrontiers26-1.zip
 	mkdir siggraphfrontiers26-1 siggraphfrontiers26-1/pdf siggraphfrontiers26-1/Source
 	cp -p main.pdf siggraphfrontiers26-1/pdf/paper.pdf
-	cp -p *.tex siggraphfrontiers26-1/Source/
+	cp -p *.tex *.bib siggraphfrontiers26-1/Source/
 	zip -r siggraphfrontiers26-1.zip siggraphfrontiers26-1 -x '*/.DS_Store'
 
 clean:
