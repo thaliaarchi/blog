@@ -19,6 +19,26 @@ Only fragmentary portions of earlier versions have survived, such as a notebook 
 Later versions were distributed much more widely and have been preserved, but there was a 1.5-year gap around V4.
 It was vital that we preserve this artifact.
 
+\section{Recovery}
+
+The recovery was carried out at the Computer History Museum's software preservation laboratory, led by Al Kossow.
+The laboratory maintains a collection of vintage drives and related equipment for reading old media.
+Before attempting the read, Kossow prepared by testing the process on a tape of similar vintage.
+Magnetic tapes usually age poorly and must be baked first, to stabilize the binder and keep it from coming off the surface of the tape as it is read.
+But, visual inspection showed that the Utah tape was in remarkably good condition and did not need baking.
+Then, the tape was conditioned with a lubricant as it passed through an initial drive.
+
+For the archival read, the team used a modified tape drive that captures the signal before the drive interprets it as digital data.
+Instead of relying on the drive's electronics to decode the data directly, the setup recorded the analog waveform using a Saleae logic analyzer tapped into the drive and connected to a computer running Saleae Logic Pro.
+The signal was sampled at substantially higher fidelity than the bit rate required, preserving enough detail to adjust decoding parameters later in software, without repeatedly running the tape and risking damage.
+
+The software side used the \texttt{readtape} program developed by Len Shustek to reconstruct the digital data.
+Shustek had originally written it to recover a PL/I project from his undergraduate after a commercial recovery attempt failed.
+It can handle a variety of tape formats, which avoids needing to maintain multiple working drives.
+This was a nine-track tape with eight tracks for data bits and one for parity.
+Together with block-level checksums, that structure provided multiple ways to detect read errors and assure that the resulting image accurately represented the tape.
+During our recovery, Shustek helped troubleshoot the decoding parameters, and the read was successful.
+
 \section{Research at the University of Utah}
 
 That phone number is still live today, used as the Kahlert School of Computing front desk number.
