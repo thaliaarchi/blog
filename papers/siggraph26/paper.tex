@@ -6,8 +6,6 @@ The tape was among items associated with Jay Lepreau, a University of Utah opera
 Lepreau's early UNIX work included a virtualized version of UNIX for TOPS-20, a task made difficult by the PDP-10's 36-bit word size, which did not align naturally with the byte-oriented assumptions of UNIX on the PDP-11.
 He later served on program committees for several USENIX conferences and founded the Symposium on Operating Systems Design and Implementation and the Flux Research Group.
 
-\section{Significance}
-
 The "UNIX V4 DIST" label on the tape immediately suggested its significance.
 This version of the influential operating system, released in November 1973, was the culmination of the effort to rewrite the kernel from assembly to C, making it one of the earliest kernels written in a high-level language.
 Earlier attempts at that rewrite had failed, but once a compiler was developed for the language, replacing the B interpreter, and structures were added, C became fast and expressive enough to handle the kernel.
@@ -21,8 +19,9 @@ It was vital that we preserve this artifact.
 
 \section{Recovery}
 
-The recovery was carried out at the Computer History Museum's software preservation laboratory, led by Al Kossow.
-The laboratory maintains a collection of vintage drives and related equipment for reading old media.
+The recovery was carried out at the Computer History Museum's software preservation laboratory.
+To avoid risk of damage, Jon Duerig drove the tape there.
+The laboratory, led by Al Kossow, maintains a collection of vintage drives and related equipment for reading old media.
 Before attempting the read, Kossow prepared by testing the process on a tape of similar vintage.
 Magnetic tapes usually age poorly and must be baked first, to stabilize the binder and keep it from coming off the surface of the tape as it is read.
 But, visual inspection showed that the Utah tape was in remarkably good condition and did not need baking.
@@ -40,13 +39,12 @@ This was a nine-track tape with eight tracks for data bits and one for parity.
 Together with block-level checksums, that structure provided multiple ways to detect read errors and assure that the resulting image accurately represented the tape.
 During our recovery, Shustek helped troubleshoot the decoding parameters, and the read was successful.
 
-\section{Resurrection}
-
 Once recovered, I uploaded the tape image to the Internet Archive.
 Almost as soon as it was available, Angelo Papenhoff booted it in the SIMH PDP-11 emulator and wrote instructions for others to reproduce the result.
 The system was soon running on real PDP-11 hardware.
 Jacob Ritorto ran it on a PDP-11/45, then Ashlin Inwood on a PDP-11/40, the first time this version of UNIX had run on original hardware in roughly fifty years.
-An attempted boot on the Interim Computer Museum's "Miss Piggy" PDP-11/70 exposed hardware issues that required further repair.
+We also attempted to boot it on the Interim Computer Museum's "Miss Piggy" PDP-11/70, but that exposed hardware issues that required further repair.
+UNIX V4 has now been run on vastly more machines than originally, even emulated in the browser.
 
 \section{Research at the University of Utah}
 
