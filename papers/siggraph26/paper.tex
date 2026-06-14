@@ -31,6 +31,7 @@ Then, the tape was conditioned with a lubricant as it passed through an initial 
 For the archival read, the team used a modified tape drive that captures the signal before the drive interprets it as digital data.
 Instead of relying on the drive's electronics to decode the data directly, the setup recorded the analog waveform using a Saleae logic analyzer tapped into the drive and connected to a computer running Saleae Logic Pro.
 The signal was sampled at substantially higher fidelity than the bit rate required, preserving enough detail to adjust decoding parameters later in software, without repeatedly running the tape and risking damage.
+For this tape, the analog signal was 1.1 GiB for only 2.4 MiB of decoded digital data.
 
 The software side used the \texttt{readtape} program developed by Len Shustek to reconstruct the digital data.
 Shustek had originally written it to recover a PL/I project from his undergraduate after a commercial recovery attempt failed.
@@ -38,6 +39,14 @@ It can handle a variety of tape formats, which avoids needing to maintain multip
 This was a nine-track tape with eight tracks for data bits and one for parity.
 Together with block-level checksums, that structure provided multiple ways to detect read errors and assure that the resulting image accurately represented the tape.
 During our recovery, Shustek helped troubleshoot the decoding parameters, and the read was successful.
+
+\section{Resurrection}
+
+Once recovered, I uploaded the tape image to the Internet Archive.
+Almost as soon as it was available, Angelo Papenhoff booted it in the SIMH PDP-11 emulator and wrote instructions for others to reproduce the result.
+The system was soon running on real PDP-11 hardware.
+Jacob Ritorto ran it on a PDP-11/45, then Ashlin Inwood on a PDP-11/40, the first time this version of UNIX had run on original hardware in roughly fifty years.
+An attempted boot on the Interim Computer Museum's "Miss Piggy" PDP-11/70 exposed hardware issues that required further repair.
 
 \section{Research at the University of Utah}
 
