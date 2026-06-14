@@ -60,7 +60,8 @@ sure that the binders don't come off as you're reading it. But ours was in
 pristine condition.
 
 So he loaded it into this other tape drive, the purpose just being that he
-cleans it with alcohol as it runs through, so that when we do the actual read—
+cleans it with alcohol [cyclomethicone] as it runs through, so that when we do
+the actual read—
 
 in this tape drive, it goes smoothly.
 
@@ -103,8 +104,8 @@ And then it was run on a PDP-11/45.
 
 And so the first time running Unreal hardware in 50 years by Jacob Ritorto.
 
-And then on a PDP-11/40 by [Ashlin Inwood]. Then I went to ICM and Stephen
-indulged me. We tried booting on Miss Piggy, a PDP-11/70.
+And then on a PDP-11/40 by Ian Ashlin [Ashlin Inwood]. Then I went to ICM and
+Stephen indulged me. We tried booting on Miss Piggy, a PDP-11/70.
 
 But we had issues. So more repairs were needed. And people who actually know
 what they're doing with an 11/70 came in and fixed it in the coming weeks.
@@ -161,7 +162,8 @@ except it was never used. So Martin requested the tape. And it was too flaky. I
 got in touch with him and Jim Blinn, his student at the time. And they were
 saying that the file system—they'd have to go in and fix some inodes—and it just
 was not stable. And so they used DEC's DOS operating system, and then later,
-RT11. So that's also why the tape was so pristine. It just sat on a shelf.
+RT-11 [RSX-11M]. So that's also why the tape was so pristine. It just sat on a
+shelf.
 
 But in his thesis, it has the very first renderings of the Utah teapot.
 
