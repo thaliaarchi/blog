@@ -13,7 +13,7 @@ submit: build
 	mkdir siggraphfrontiers26-1 siggraphfrontiers26-1/pdf siggraphfrontiers26-1/Source
 	cp -p main.pdf siggraphfrontiers26-1/pdf/paper.pdf
 	cp -p *.tex *.bib siggraphfrontiers26-1/Source/
-	zip -r siggraphfrontiers26-1.zip siggraphfrontiers26-1 -x '*/.DS_Store'
+	cd siggraphfrontiers26-1 && zip -r ../siggraphfrontiers26-1.zip pdf Source -x '*/.DS_Store'
 
 clean:
 	$(TEX) -c
