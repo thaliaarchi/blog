@@ -8,7 +8,8 @@ He later served on program committees for several USENIX conferences and founded
 
 The "UNIX V4 DIST" label on the tape immediately suggested its significance.
 This version of the influential operating system, released in November 1973, was the culmination of the effort to rewrite the kernel from assembly to C, making it one of the earliest kernels written in a high-level language.
-Earlier attempts at that rewrite had failed, but once a compiler was developed for the language, replacing the B interpreter, and structures were added, C became fast and expressive enough to handle the kernel.
+Earlier attempts at that rewrite had failed, but the breakthrough came with two changes: a compiler replaced the B interpreter, and structures were added.
+Together, they made C fast and expressive enough to handle the kernel.
 This grew C into a powerful systems programming language and enabled the later ports to other systems.
 
 Furthermore, UNIX V4 was the first release outside of Bell Laboratories, sent only to a few universities.
@@ -23,9 +24,9 @@ The recovery was carried out at the Computer History Museum's software preservat
 As we do not have the equipment to read such a tape at the university, Jon Duerig transported it to the archive.
 The laboratory, led by Al Kossow, maintains a collection of vintage drives and related equipment for reading old media.
 Before attempting the read, Kossow prepared by testing the process on a tape of similar vintage.
-Magnetic tapes usually age poorly and must be baked first, to stabilize the binder and keep it from coming off the surface of the tape as it is read.
-But, visual inspection showed that the Utah tape was in remarkably good condition and did not need baking.
-Then, the tape was conditioned with a lubricant as it passed through an initial drive.
+Magnetic tapes usually age poorly and must be baked first to stabilize the binder and keep it from coming off the surface of the tape as it is read.
+Visual inspection showed that the Utah tape was in remarkably good condition and did not need baking.
+It was then conditioned with a lubricant as it passed through an initial drive.
 
 For the archival read, the team used a modified tape drive that captures the signal before the drive interprets it as digital data.
 Instead of relying on the drive's electronics to decode the data directly, the setup recorded the analog waveform using a Saleae logic analyzer tapped into the drive and connected to a computer running Saleae Logic Pro.
@@ -33,8 +34,8 @@ The signal was sampled at substantially higher fidelity than the bit rate requir
 For this tape, the analog signal was 1.1 GiB for only 2.4 MiB of decoded digital data.
 
 The software side used the \texttt{readtape} program developed by Len Shustek to reconstruct the digital data.
-Shustek had originally written it to recover a PL/I project from his undergraduate after a commercial recovery attempt failed.
-It can handle a variety of tape formats, which avoids needing to maintain multiple working drives.
+Shustek had originally written it to recover a PL/I project from his undergraduate years after a commercial recovery attempt failed.
+It can handle a variety of tape formats, which avoids the need to maintain multiple working drives.
 This was a nine-track tape with eight tracks for data bits and one for parity.
 Together with block-level checksums, that structure provided multiple ways to detect read errors and assure that the resulting image accurately represented the tape.
 During our recovery, Shustek helped troubleshoot the decoding parameters, and the read was successful.
@@ -77,7 +78,7 @@ He measured the teapot by hand on graph paper and formed the model using 28 cubi
 % https://graphics.cs.utah.edu/teapot/
 
 Newell's dissertation \cite{newell75proceduremodels} introduces procedure models, models represented by a high-level description of the surface, such as Bézier patches, rather than a static database of geometric data.
-Today, procedural modeling is higher level, generating geometry algorithmically from code, where Bézier patches may be produced by such procedures.
+Today, procedural modeling is even higher level, generating geometry algorithmically from code, with Bézier patches as one such result.
 The teapot was one of several objects modeled in this fashion, including Ivan Sutherland's Volkswagen, but it proved the most useful.
 
 The teapot model then acquired its recognizable form in 1976 from Jim Blinn, Newell's student at the time.
@@ -94,14 +95,14 @@ The most likely connection for the UNIX tape is to a PDP-11 computer used for co
 However, Martin Newell's dissertation renderings, including the teapot, were produced by PDP-10s in a two-phase pipeline.
 A time-shared PDP-10 normally computed the priority list used for hidden surface removal, ordering objects so that those obscured by other objects would be drawn first.
 Image generation was then carried out on a single-user PDP-10 connected to a hardware Watkins processor and display devices.
-The frame buffer was implemented on disk and paged into memory, as it was too large with \(512 \times 512\) or \(1024 \times 1024\) eight-bit pixels to fit within the 64K-word main memory of the PDP-10.
+The frame buffer was too large, with \(512 \times 512\) or \(1024 \times 1024\) eight-bit pixels, to fit within the 64K-word main memory of the PDP-10, so it was implemented on disk and paged into memory.
 
 At the same time, Newell and Blinn were responsible for setting up a new graphics facility based on a PDP-11/45.
 This system was still under development when Newell modeled the teapot \cite{newell74manmachine}, but Blinn later used it to produce the renderings in \cite{blinn76texture}, including the squished teapot.
 
 This PDP-11/45 was likely the machine the UNIX V4 tape was acquired for, but recollections suggest it was unused.
-Instead, they used DEC operating systems, DOS and later RSX-11M.
-Blinn suspects that UNIX was not used as the system for the lab, because it was still early in development.
+Instead, the lab used DEC operating systems, DOS and later RSX-11M.
+Blinn suspects that UNIX was not used for the lab because it was still early in development.
 He recalls UNIX as being rather flaky when he first used V6 in 1976 at the New York Institute of Technology.
 UNIX V4 may have been briefly trialed on this machine, but was not used for any research.
 Inadvertently, this preserved the tape in pristine condition.
