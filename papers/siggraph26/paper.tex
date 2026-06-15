@@ -87,8 +87,17 @@ His paper on texture and reflection \cite{blinn76texture} was more widely distri
 From there, it has made cameos in numerous productions.
 % https://www.studiopotter.org/digital-issue/173
 
-The most likely connection for the UNIX tape is to a PDP-11 computer used for this research.
-Computer graphics research was expanding and Martin Newell was responsible for setting up a new interactive graphics facility based on a PDP-11/45 computer.
+\section{Connection}
+
+The most likely connection for the UNIX tape is to a PDP-11 computer used for computer graphics research.
+
+However, Martin Newell's dissertation renderings, including the teapot, were produced by PDP-10s in a two-phase pipeline.
+A time-shared PDP-10 normally computed the priority list used for hidden surface removal, ordering objects so that those obscured by other objects would be drawn first.
+Image generation was then carried out on a single-user PDP-10 connected to a hardware Watkins processor and display devices.
+The frame buffer was implemented on disk and paged into memory, as it was too large with \(512 \times 512\) or \(1024 \times 1024\) eight-bit pixels to fit within the 64K-word main memory of the PDP-10.
+
+At the same time, Newell was responsible for setting up a new graphics facility based on a PDP-11/45.
+This system was still under development when Newell modeled the teapot \cite{newell74manmachine}.
 
 This system would have been what the UNIX V4 tape was acquired for, but it was never used.
 Rather, they used operating systems provided by the manufacturer, DEC DOS, then later RSX-11M.
