@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>UNIX V4 and the Utah Teapot</title>
+<!-- Copyright (c) 2010-2015 The MathJax Consortium --><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+<meta name="viewport" content="width=device-width; initial-scale=1.0;"></meta>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+<link media="screen, print" rel="stylesheet"
+            href="https://camps.aptaracorp.com/ACM_PMS/pubs/lib/css/bootstrap.min.css"/><link media="screen, print" rel="stylesheet"
+            href="https://camps.aptaracorp.com/ACM_PMS/pubs/lib/css/bootstrap-theme.min.css"/><link media="screen, print" rel="stylesheet"
+            href="https://camps.aptaracorp.com/ACM_PMS/pubs/lib/css/main.css"/><script src="https://camps.aptaracorp.com/ACM_PMS/pubs/lib/js/jquery.min.js"
+              type="text/javascript"></script>
+<script src="https://camps.aptaracorp.com/ACM_PMS/pubs/lib/js/bootstrap.min.js"
+              type="text/javascript"></script>
+<script src="https://camps.aptaracorp.com/ACM_PMS/pubs/lib/js/bibCit.js"
+              type="text/javascript"></script>
+<script src="https://camps.aptaracorp.com/ACM_PMS/pubs/lib/js/divTab.js"
+              type="text/javascript"></script>
+<script>MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']], packages: {'[+]': ['base', 'ams', 'newcommand']}}, svg: {fontCache: 'global'}};</script>
+<script type="text/javascript" id="MathJax-script"
+              src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
+</head>
+<body id="main">
+<main>
+<section class="front-matter">
+<section>
+<header class="title-info">
+<div class="journal-title">
+<h1>
+<span class="title">UNIX V4 and the Utah Teapot</span>
+<br/>
+<span class="subTitle"/>
+</h1>
+</div>
+</header>
+<div class="authorGroup">
+<div class="author">
+<a href="https://orcid.org/0009-0007-5172-5115" ref="author"><span class="givenName">Thalia</span> <span class="surName">Archibald</span></a>, Kahlert School of Computing, University of Utah, Salt Lake City, Utah, USA, <a href="mailto:thalia@archibald.dev">thalia@archibald.dev</a>
+</div>
+</div>
+<br/>
+<div class="pubInfo">
+<p>DOI: <a href="https://doi.org/10.1145/3799885.3816010" target="_blank">https://doi.org/10.1145/3799885.3816010</a>
+<br/>SIGGRAPH Frontiers '26: <a href="https://doi.org/10.1145/3799885" target="_blank">Special Interest Group on Computer Graphics and Interactive Techniques Conference Frontiers</a>, Los Angeles, CA, USA, July 2026</p>
+</div>
+<div class="abstract">
+<p><small>
+We recently recovered UNIX V4 from a 1974 magnetic tape at the University of Utah. This version of the UNIX operating system, thought to have been lost, was the 19th copy distributed to the public, just months after the first public announcement. It was originally acquired by Martin Newell while managing the computer graphics laboratory, and it was likely connected to his foundational research in procedural modeling and the famous Utah teapot. This talk shows the unique insight this artifact provides into the dawn of computer graphics and the history of UNIX.</small></p>
+</div>
+<div class="CCSconcepts">
+<ccs2012><small> <span style="font-weight:bold;">CCS Concepts:</span> &#x2022; <strong>Computing methodologies &#x2192; Computer graphics</strong>;</small> </ccs2012>
+</div>
+<br/>
+<div class="classifications">
+<div class="author">
+<span style="font-weight:bold;"><small>Keywords:</small></span>
+<span class="keyword"><small>UNIX</small>, </span>
+<span class="keyword"> <small>software preservation</small>, </span>
+<span class="keyword"> <small>computing history</small>, </span>
+<span class="keyword"> <small>Utah teapot</small></span>
+</div>
+<br/>
+<div class="AcmReferenceFormat">
+<p><small>
+<span style="font-weight:bold;">ACM Reference Format:</span>
+<br/>Thalia Archibald. 2026. UNIX V4 and the Utah Teapot. In <em>Special Interest Group on Computer Graphics and Interactive Techniques Conference Frontiers (SIGGRAPH Frontiers '26), July 19--23, 2026,  Los Angeles, CA, USA.</em>  ACM, New York, NY, USA 3 Pages. <a href="https://doi.org/10.1145/3799885.3816010" class="link-inline force-break" target="_blank">https://doi.org/10.1145/3799885.3816010</a></small></p>
+</div>
+</div>
+</section>
+</section>
+<section class="body">
+<section id="sec-2">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">1</span> Discovery</h2>
+</div>
+</header>
+<p>In summer 2025, a magnetic tape containing an early version of UNIX was discovered at the University of Utah. UNIX, created at Bell Laboratories by Ken Thompson, Dennis Ritchie, and others, became one of the defining systems of its era and has influenced all modern operating systems. Aleks Maricq found it in the Flux research lab while sorting through old materials in preparation for the move to the new computer science building.</p>
+<p>The tape was among items associated with Jay Lepreau, a University of Utah operating systems researcher who worked with UNIX throughout his career. Lepreau&#x0027;s early UNIX work included a virtualized version of UNIX for TOPS-20, a task made difficult by the PDP-10&#x2019;s 36-bit word size, which did not align naturally with the byte-oriented assumptions of UNIX on the PDP-11. He later served on program committees for several USENIX conferences and founded the Symposium on Operating Systems Design and Implementation and the Flux Research Group.</p>
+<p>The "UNIX V4 DIST" label on the tape immediately suggested its significance. This version of the influential operating system, released in November 1973, was the culmination of the effort to rewrite the kernel from assembly to C, making it one of the earliest kernels written in a high-level language. Earlier attempts at that rewrite had failed, but the breakthrough came with two changes: a compiler that replaced the B interpreter, and the addition of structures. Together, they made C fast and expressive enough to handle the kernel. This grew C into a powerful systems programming language and enabled the later ports to other systems.</p>
+<p>Furthermore, UNIX V4 was the first release outside of Bell Laboratories, sent only to a few universities. Until this recovery, the earliest complete copy was a snapshot of UNIX V5. Only fragmentary portions of earlier versions have survived, such as a notebook of PDP-7 UNIX source code, V1 kernel listings commented for a study, a backup of V2 utilities, and a beta V4 kernel. Later versions were distributed much more widely and have been preserved, but there was a 1.5-year gap around V4. It was vital that we preserve this artifact.</p>
+</section>
+<section id="sec-3">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">2</span> Recovery</h2>
+</div>
+</header>
+<p>The recovery was carried out at the Computer History Museum&#x0027;s software preservation laboratory. As we do not have the equipment to read such a tape at the university, Jon Duerig transported it to the archive. The laboratory, led by Al Kossow, maintains a collection of vintage drives and related equipment for reading old media. Before attempting the read, Kossow prepared by testing the process on a tape of similar vintage. Magnetic tapes usually age poorly and must be baked first to stabilize the binder and keep it from coming off the surface of the tape as it is read. Visual inspection showed that the Utah tape was in remarkably good condition and did not need baking. It was then conditioned with a lubricant as it passed through an initial drive.</p>
+<p>For the archival read, the team used a modified tape drive that captures the signal before the drive interprets it as digital data. Instead of relying on the drive&#x0027;s electronics to decode the data directly, the setup recorded the analog waveform using a Saleae logic analyzer tapped into the drive and connected to a computer running Saleae Logic Pro. The signal was sampled at substantially higher fidelity than the bit rate required, preserving enough detail to adjust decoding parameters later in software, without repeatedly running the tape and risking damage. For this tape, the analog signal was 1.1 GiB for only 2.4 MiB of decoded digital data.</p>
+<p>The software side used the <tt>readtape</tt> program developed by Len Shustek to reconstruct the digital data. Shustek had originally written it to recover a PL/I project from his undergraduate years after a commercial recovery attempt failed. It can handle a variety of tape formats, which avoids the need to maintain multiple working drives. This was a nine-track tape with eight tracks for data bits and one for parity. Together with block-level checksums, that structure provided multiple ways to detect read errors and assure that the resulting image accurately represented the tape. During our recovery, Shustek helped troubleshoot the decoding parameters, and the read was successful.</p>
+<p>Once recovered, I uploaded the tape image to the Internet Archive. Almost as soon as it was available, Angelo Papenhoff booted it in the SIMH PDP-11 emulator and wrote instructions for others to reproduce the result. The system was soon running on real PDP-11 hardware. Jacob Ritorto ran it on a PDP-11/45, then Ashlin Inwood on a PDP-11/40, the first time this version of UNIX had run on original hardware in roughly fifty years. We also attempted to boot it on the Interim Computer Museum&#x0027;s "Miss Piggy" PDP-11/70, but that exposed hardware issues that required further repair. UNIX V4 has now run on vastly more machines than it did originally, even being emulated in the browser.</p>
+</section>
+<section id="sec-4">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">3</span> Distribution</h2>
+</div>
+</header>
+<p>Early UNIX distributions were not fixed releases in the modern sense. The system was under continuous development at Bell Labs and stable releases were not maintained until later. Instead, early users received a snapshot of the research machine as it was, accompanied by the current manual. The manual edition then determined the version of the system.</p>
+<p>The files on the Utah tape indicate that it was produced on June 12, 1974, after the November 1973 Fourth Edition manual and in the same month as the Fifth Edition manual. A letter from Ken Thompson to Martin Newell explains that shipment had been delayed, because they had run out of documentation and needed to print more. It was evidently the last printing of the Fourth Edition manual. Following that convention, it is still accurate to call the tape UNIX V4.</p>
+<p>Even though it was dumped near the transition to the Fifth Edition, the other UNIX V5 snapshot dates to March 1975, so the Utah snapshot provides a midpoint in a 1.5-year period of rapid development.</p>
+</section>
+<section id="sec-5">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">4</span> Computer Graphics</h2>
+</div>
+</header>
+<p>The recovered tape raised a historical question: Why was this early UNIX system at Utah? The University of Utah is known for foundational computer graphics research and early ARPANET development in the 1970s, but early UNIX adoption had not been established. <em>UNIX News</em>, the newsletter for the user group that became Usenix, provides a clue. This group exchanged modifications to their UNIX installations and met regularly. Its first issue lists the newsletter subscribers, a subset of the 51 UNIX licensees at the time, and licensee number 19 is Martin Newell of the University of Utah Computer Science Department. The department has since grown into the Kahlert School of Computing, but the listed phone number still reaches the front desk.</p>
+<p>Newell is best known for modeling the Utah teapot, one of the standard reference objects in computer graphics. In early to mid 1974, while working on his dissertation, he needed an interesting object to model and, over tea, his wife Sandra suggested their tea set. It turned out to be unusually well suited: the teapot casts a shadow on itself, is round but not overly complex, and has a concave space with the handle. He measured the teapot by hand on graph paper and formed the model using 28 cubic B&#x00E9;zier patches.</p>
+<p>Newell&#x0027;s dissertation [Newell <a class="bib" data-trigger="hover" data-toggle="popover" data-placement="top" href="#BibPLXBIB0004">1975</a>] introduces procedure models, models represented by a high-level description of the surface, such as B&#x00E9;zier patches, rather than a static database of geometric data. Today, procedural modeling is even higher level, generating geometry algorithmically from code, with B&#x00E9;zier patches as one such result. The teapot was one of several objects modeled in this fashion, including Ivan Sutherland&#x0027;s Volkswagen, but it proved the most useful.</p>
+<p>The teapot model then acquired its recognizable form in 1976 from Jim Blinn, Newell&#x0027;s student at the time, who is also known for Blinn&#x2013;Phong shading. While demonstrating interactive capabilities, he scaled the model to about three quarters of its height. Everyone agreed it looked better this way and it stuck. His paper on texture and reflection [Blinn and Newell <a class="bib" data-trigger="hover" data-toggle="popover" data-placement="top" href="#BibPLXBIB0001">1976</a>] was more widely distributed and introduced the teapot to a wider audience. From there, it has made cameos in numerous productions.</p>
+</section>
+<section id="sec-6">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">5</span> Connection</h2>
+</div>
+</header>
+<p>The most likely connection for the UNIX tape is to a PDP-11 computer used for computer graphics research.</p>
+<p>However, Martin Newell&#x0027;s dissertation renderings, including the teapot, were produced by PDP-10s in a two-phase pipeline. A time-shared PDP-10 normally computed the priority list used for hidden surface removal, ordering objects so that those obscured by other objects would be drawn first. Image generation was then carried out on a single-user PDP-10 connected to a hardware Watkins processor and display devices. The frame buffer was too large, with 512 &#x00D7; 512 or 1024 &#x00D7; 1024 eight-bit pixels, to fit within the 64K-word main memory of the PDP-10, so it was implemented on disk and paged into memory.</p>
+<p>At the same time, Newell and Blinn were responsible for setting up a new graphics facility based on a PDP-11/45. This system was still under development when Newell modeled the teapot [Newell <a class="bib" data-trigger="hover" data-toggle="popover" data-placement="top" href="#BibPLXBIB0003">1974</a>], but Blinn later used it to produce the renderings in [Blinn and Newell <a class="bib" data-trigger="hover" data-toggle="popover" data-placement="top" href="#BibPLXBIB0001">1976</a>], including the squished teapot.</p>
+<p>This PDP-11/45 was likely the machine the UNIX V4 tape was acquired for, but recollections suggest it was unused. Instead, the lab used DEC operating systems, DOS and later RSX-11M. Blinn suspects that UNIX was not used for the lab because it was still early in development. He recalls UNIX as being rather flaky when he first used V6 in 1976 at the New York Institute of Technology. UNIX V4 may have been briefly trialed on this machine, but was not used for any research. Inadvertently, this preserved the tape in pristine condition.</p>
+</section>
+<section id="sec-7">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">6</span> Other Connections</h2>
+</div>
+</header>
+<p>Newell was not the only researcher at the University of Utah interested in UNIX early on. In November 1973, just after UNIX was announced and seven months before the UNIX V4 tape was made, Dr. Paul Abegglen of the Department of Chemistry wrote to Dennis Ritchie inquiring about UNIX. He was building a data gathering system for mass spectrometry on a PDP-11 and was interested in the programs UNIX could offer [Futrell <a class="bib" data-trigger="hover" data-toggle="popover" data-placement="top" href="#BibPLXBIB0002">1975</a>]. However, his interest appears to have been exploratory: his software already ran under DEC DOS and making it run under UNIX would require substantial work.</p>
+</section>
+<section id="sec-8">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">7</span> Conclusion</h2>
+</div>
+</header>
+<p>The Utah UNIX V4 tape preserves a rare transitional moment in UNIX history: a system newly rewritten in C, distributed informally before stable releases, and sent to one of the small number of early academic licensees. Its likely connection to Martin Newell&#x0027;s PDP-11/45 graphics facility places it alongside the research environment that produced the Utah teapot, even if UNIX itself was not used for that work. The tape survived precisely because that connection appears to have been brief, preserving the earliest complete surviving UNIX system.</p>
+</section>
+<section id="sec-9">
+<header>
+<div class="title-info">
+<h2>
+<span class="section-number">8</span> Speaker Bio</h2>
+</div>
+</header>
+<p>Thalia Archibald is a PhD student in computer science at the University of Utah, researching compiler verification. She is also involved in software history and preservation and is a member of the team behind the Unix Heritage Society.</p>
+</section>
+</section>
+<section class="back-matter">
+<section id="ref-001">
+<header>
+<div class="title-info">
+<h2 class="page-brake-head">References</h2>
+</div>
+</header>
+<ul class="bibUl">
+<li id="BibPLXBIB0001">James&#x00A0;F. Blinn and Martin&#x00A0;E. Newell. 1976. Texture and Reflection in Computer Generated Images. <em><em>Commun. ACM</em></em> 19, 10 (Oct. 1976), 542&#x2013;547. <a class="link-inline force-break" href="https://doi.org/10.1145/360349.360353">https://doi.org/10.1145/360349.360353</a></li>
+<li id="BibPLXBIB0002">Jean&#x00A0;H. Futrell. 1975. <em>Studies in Chemical Ionization Mass Spectrometry</em>. Technical Report AFML-TR-75-35. Air Force Materials Laboratory, Wright-Patterson Air Force Base, Ohio. <a class="link-inline force-break" href="https://apps.dtic.mil/sti/trecms/pdf/ADA018355.pdf">https://apps.dtic.mil/sti/trecms/pdf/ADA018355.pdf</a> Performing organization: Departments of Chemistry and Materials Science, University of Utah.</li>
+<li id="BibPLXBIB0003">Martin&#x00A0;E. Newell. 1974. Man Machine Communication in Three Dimensions. In <em>Computer Aided Geometric Design</em>. Academic Press, 303&#x2013;315. <a class="link-inline force-break" href="https://doi.org/10.1016/B978-0-12-079050-0.50019-9">https://doi.org/10.1016/B978-0-12-079050-0.50019-9</a></li>
+<li id="BibPLXBIB0004">Martin&#x00A0;Edward Newell. 1975. The Utilization of Procedure Models in Digital Image Synthesis. Doctor of Philosophy dissertation. University of Utah. <a class="link-inline force-break" href="https://collections.lib.utah.edu/ark:/87278/s651906h">https://collections.lib.utah.edu/ark:/87278/s651906h</a></li>
+</ul>
+</section>
+</section>
+<section id="foot-001" class="footnote">
+
+<div class="bibStrip">
+<p>
+<img src="https://www.acm.org/binaries/content/gallery/acm/publications/cc-by/cc-by.jpg"
+                       class="img-responsive"
+                       alt="CC-BY license image"/>
+<br/> This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<p><em>SIGGRAPH Frontiers '26, Los Angeles, CA, USA</em></p>
+<p>&#x00A9; 2026 Copyright held by the owner/author(s).<br/> ACM ISBN 979-8-4007-2553-1/26/07.<br/>DOI: <a class="link-inline force-break" target="_blank" href="https://doi.org/10.1145/3799885.3816010">https://doi.org/10.1145/3799885.3816010</a>
+</p>
+</div>
+</section>
+</main>
+</body>
+</html>
